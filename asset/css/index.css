@@ -2,7 +2,9 @@ body,
 html {
   margin: 0;
   padding: 0;
-  overflow-x: hidden; }
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column; }
   body header,
   html header {
     background-image: url("../img/navet.jpg");
@@ -11,15 +13,32 @@ html {
     background-position: center;
     background-size: cover; }
     body header nav,
-    body header ul,
-    body header li,
-    body header a,
-    html header nav,
-    html header ul,
-    html header li,
-    html header a {
+    html header nav {
+      height: 10vh;
+      width: 100vw;
       display: flex;
-      flex-direction: row; }
+      flex-direction: row;
+      justify-content: space-around; }
+    body header ul,
+    html header ul {
+      color: white;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around; }
+      body header ul li,
+      html header ul li {
+        text-decoration: none;
+        list-style: none;
+        padding-right: 10%; }
+        body header ul li a,
+        html header ul li a {
+          margin: 0 8%; }
+      body header ul #reseau,
+      html header ul #reseau {
+        display: flex;
+        flex-direction: row;
+        padding: 0;
+        justify-content: space-around; }
   body #food,
   html #food {
     background-image: url("../img/blanc.jpg");
@@ -38,8 +57,8 @@ html {
     width: 100vw;
     height: 100vh;
     background-position: center; }
-  body #reservations,
-  html #reservations {
+  body #reservation1,
+  html #reservation1 {
     background-image: url("../img/blanc.jpg");
     width: 100vw;
     height: 100vh;

@@ -4,9 +4,8 @@ html {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-
-
-
+    display: flex;
+    flex-direction: column;
     // ##### <----------|Header Restaurant|---------------> #########
 
     header {
@@ -17,14 +16,43 @@ html {
         background-size: cover;
 
 
-        nav,
-        ul,
-        li,
-        a {
-
+        nav {
+            height: 10vh;
+            width: 100vw;
             display: flex;
             flex-direction: row;
+            justify-content: space-around;
         }
+
+
+        ul {
+            color: white;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+
+            li {
+                text-decoration: none;
+                list-style: none;
+                padding-right: 10%;
+
+
+                a {
+                    margin: 0 8%;
+                }
+
+            }
+
+            #reseau {
+
+                display: flex;
+                flex-direction: row;
+                padding: 0;
+                justify-content: space-around;
+            }
+
+        }
+
 
     }
 
@@ -55,7 +83,7 @@ html {
 
     }
 
-    #reservations {
+    #reservation1 {
         background-image: url("../img/blanc.jpg");
         width: 100vw;
         height: 100vh;
