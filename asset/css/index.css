@@ -1,13 +1,15 @@
 body,
 html {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  overflow-x: hidden; }
   body header,
   html header {
     background-image: url("../img/navet.jpg");
     width: 100vw;
     height: 100vh;
-    background-position: center; }
+    background-position: center;
+    background-size: cover; }
     body header nav,
     body header ul,
     body header li,
@@ -18,10 +20,34 @@ html {
     html header a {
       display: flex;
       flex-direction: row; }
-  body .food,
-  html .food {
+  body #food,
+  html #food {
     background-image: url("../img/blanc.jpg");
+    width: 100vw;
     height: 100vh;
     background-position: center; }
+  body #ingredient,
+  html #ingredient {
+    background-image: url("../img/salade.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center; }
+  body #guest,
+  html #guest {
+    background-image: url("../img/brochette.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center; }
+  body #reservations,
+  html #reservations {
+    background-image: url("../img/blanc.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center; }
+  body footer,
+  html footer {
+    background-color: #191919;
+    width: 100vw;
+    height: 50vh; }
 
 /*# sourceMappingURL=index.css.map */
