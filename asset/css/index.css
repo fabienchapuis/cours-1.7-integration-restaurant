@@ -32,6 +32,11 @@ html {
     width: 100vw;
     height: 100vh;
     background-position: center; }
+  body #menu_vide,
+  html #menu_vide {
+    background-image: url("../img/nappe.jpg");
+    width: 100vw;
+    height: 100vh; }
   body #guest,
   html #guest {
     background-image: url("../img/brochette.jpg");
