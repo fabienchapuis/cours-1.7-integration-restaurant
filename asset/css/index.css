@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Lato");
+@import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic");
+@import url("https://fonts.googleapis.com/css?family=Yeseva+One");
 * {
   text-decoration: none;
   margin: 0;
@@ -19,6 +22,7 @@ html {
     background-size: cover; }
     body header nav,
     html header nav {
+      font-family: 'Lato', sans-serif;
       height: 10vh;
       width: 100vw;
       display: flex;
@@ -52,45 +56,47 @@ html {
           justify-content: space-around; }
     body header .texte_principal,
     html header .texte_principal {
-      padding-top: 15%;
+      padding-top: 10%;
       text-align: center; }
       body header .texte_principal h1,
       html header .texte_principal h1 {
-        padding-bottom: 4%;
+        font-family: 'Yeseva One', cursive;
+        padding-bottom: 2%;
         color: white;
-        font-size: 4em; }
+        font-size: 4.9em; }
       body header .texte_principal img,
       html header .texte_principal img {
-        width: 13%;
-        height: 13%;
-        padding-bottom: 3%; }
+        width: 21%;
+        height: 28%; }
     body header #bouton,
     html header #bouton {
-      text-align: center; }
+      font-family: 'Lato', sans-serif;
+      text-align: center;
+      color: white;
+      padding-top: 2%; }
       body header #bouton .box1,
       html header #bouton .box1 {
+        color: white;
         margin-top: 5%;
-        background-color: #242525;
+        margin-right: 2%;
+        background-color: rgba(0, 0, 0, 0.7);
         border: 1px solid #242525;
-        padding: 1%; }
-        body header #bouton .box1 a,
-        html header #bouton .box1 a {
-          color: white; }
+        padding: 1% 3%; }
       body header #bouton .box2,
       html header #bouton .box2 {
+        color: white;
         margin-top: 5%;
-        background-color: #242525;
-        border: 1px solid #242525;
-        padding: 1%; }
-        body header #bouton .box2 a,
-        html header #bouton .box2 a {
-          color: white; }
+        background-color: rgba(255, 255, 255, 0.2);
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 1% 3%; }
   body #food,
   html #food {
     background-image: url("../img/blanc.jpg");
     width: 100vw;
     height: 100vh;
-    background-position: center; }
+    background-position: center;
+    display: flex;
+    justify-content: center; }
   body #ingredient,
   html #ingredient {
     background-image: url("../img/salade.jpg");
