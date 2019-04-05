@@ -1,4 +1,11 @@
 // |------------------------------|Body|-------------------------------------------------|
+
+* {
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
 body,
 html {
     margin: 0;
@@ -22,41 +29,102 @@ html {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+
+
+
+            ul {
+                color: white;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                li {
+
+                    text-decoration: none;
+                    list-style: none;
+
+                    i {
+                        color: #dab33e;
+                    }
+                }
+
+                a {
+                    color: white;
+                    text-decoration: none;
+                    padding-right: 10%;
+                    margin: 0 4%;
+                    padding: 2% 2%;
+                }
+
+                #reseau {
+
+                    display: flex;
+                    flex-direction: row;
+                    padding: 2% 2%;
+                    justify-content: space-around;
+                }
+
+            }
+
+
         }
 
+        .texte_principal {
+            padding-top: 15%;
+            text-align: center;
 
-        ul {
-            color: white;
-            display: flex;
-            flex-direction: row;
-            justify-content: space-around;
 
-            li {
+            h1 {
+                padding-bottom: 4%;
+                color: white;
+                font-size: 4em;
 
-                text-decoration: none;
-                list-style: none;
+            }
 
-                i {
-                    color: #dab33e;
+            img {
+                width: 13%;
+                height: 13%;
+                padding-bottom: 3%;
+
+            }
+
+            a {}
+
+
+        }
+
+        #bouton {
+            text-align: center;
+
+
+            .box1 {
+
+                margin-top: 5%;
+                background-color: #242525;
+                border: 1px solid #242525;
+                padding: 1%;
+
+
+                a {
+
+                    color: white;
                 }
             }
 
-            a {
-                color: white;
-                text-decoration: none;
-                padding-right: 10%;
-                margin: 0 8%;
-                padding: 2% 2%;
+            .box2 {
+
+                margin-top: 5%;
+                background-color: #242525;
+                border: 1px solid #242525;
+                padding: 1%;
+
+
+
+                a {
+
+                    color: white;
+                }
             }
-
-            #reseau {
-
-                display: flex;
-                flex-direction: row;
-                padding: 2% 2%;
-                justify-content: space-around;
-            }
-
         }
 
     }
@@ -117,9 +185,6 @@ html {
         background-color: #191919;
         width: 100vw;
         height: 50vh;
-
-
     }
-
 
 }

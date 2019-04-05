@@ -1,3 +1,8 @@
+* {
+  text-decoration: none;
+  margin: 0;
+  padding: 0; }
+
 body,
 html {
   margin: 0;
@@ -19,32 +24,67 @@ html {
       display: flex;
       flex-direction: row;
       justify-content: space-around; }
-    body header ul,
-    html header ul {
-      color: white;
-      display: flex;
-      flex-direction: row;
-      justify-content: space-around; }
-      body header ul li,
-      html header ul li {
-        text-decoration: none;
-        list-style: none; }
-        body header ul li i,
-        html header ul li i {
-          color: #dab33e; }
-      body header ul a,
-      html header ul a {
+      body header nav ul,
+      html header nav ul {
         color: white;
-        text-decoration: none;
-        padding-right: 10%;
-        margin: 0 8%;
-        padding: 2% 2%; }
-      body header ul #reseau,
-      html header ul #reseau {
         display: flex;
         flex-direction: row;
-        padding: 2% 2%;
         justify-content: space-around; }
+        body header nav ul li,
+        html header nav ul li {
+          text-decoration: none;
+          list-style: none; }
+          body header nav ul li i,
+          html header nav ul li i {
+            color: #dab33e; }
+        body header nav ul a,
+        html header nav ul a {
+          color: white;
+          text-decoration: none;
+          padding-right: 10%;
+          margin: 0 4%;
+          padding: 2% 2%; }
+        body header nav ul #reseau,
+        html header nav ul #reseau {
+          display: flex;
+          flex-direction: row;
+          padding: 2% 2%;
+          justify-content: space-around; }
+    body header .texte_principal,
+    html header .texte_principal {
+      padding-top: 15%;
+      text-align: center; }
+      body header .texte_principal h1,
+      html header .texte_principal h1 {
+        padding-bottom: 4%;
+        color: white;
+        font-size: 4em; }
+      body header .texte_principal img,
+      html header .texte_principal img {
+        width: 13%;
+        height: 13%;
+        padding-bottom: 3%; }
+    body header #bouton,
+    html header #bouton {
+      text-align: center; }
+      body header #bouton .box1,
+      html header #bouton .box1 {
+        margin-top: 5%;
+        background-color: #242525;
+        border: 1px solid #242525;
+        padding: 1%; }
+        body header #bouton .box1 a,
+        html header #bouton .box1 a {
+          color: white; }
+      body header #bouton .box2,
+      html header #bouton .box2 {
+        margin-top: 5%;
+        background-color: #242525;
+        border: 1px solid #242525;
+        padding: 1%; }
+        body header #bouton .box2 a,
+        html header #bouton .box2 a {
+          color: white; }
   body #food,
   html #food {
     background-image: url("../img/blanc.jpg");
