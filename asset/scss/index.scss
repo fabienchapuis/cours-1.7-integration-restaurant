@@ -1,4 +1,4 @@
-// |------------------------|Body|-------------------------------------------------|
+// |------------------------------|Body|-------------------------------------------------|
 body,
 html {
     margin: 0;
@@ -6,7 +6,7 @@ html {
     overflow-x: hidden;
     display: flex;
     flex-direction: column;
-    // ##### <----------|Header Restaurant|---------------> #########
+    // ##### <---------------|Header Restaurant|---------------> #########
 
     header {
         background-image: url("../img/navet.jpg");
@@ -61,6 +61,8 @@ html {
 
     }
 
+    // <!-- -------------------------|Section 2 Just the Right Food|-------------------------  -->
+
     #food {
         background-image: url("../img/blanc.jpg");
         width: 100vw;
@@ -68,6 +70,8 @@ html {
         background-position: center;
 
     }
+
+    // <!-- -------------------------|Section 3 Fine ingredients|-------------------------  -->
 
     #ingredient {
         background-image: url("../img/salade.jpg");
@@ -78,12 +82,16 @@ html {
 
     }
 
+    // <!-- --------------------------|Section 4 Menu |-------------------------  -->
+
     #menu {
         background-image: url("../img/blanc.jpg");
         width: 100vw;
         height: 100vh;
         background-position: center;
     }
+
+    // <!-- -------------------------|Section 5 Guest Review|-------------------------  -->
 
     #guest {
         background-image: url("../img/brochette.jpg");
@@ -93,6 +101,8 @@ html {
 
     }
 
+    // <!-- -------------------------|Section 6 Formulaire Reservations |-------------------------  -->
+
     #reservation1 {
         background-image: url("../img/blanc.jpg");
         width: 100vw;
@@ -100,6 +110,8 @@ html {
         background-position: center;
 
     }
+
+    // < !-- -------------------------------|Section Footer|------------------------- -->
 
     footer {
         background-color: #191919;
