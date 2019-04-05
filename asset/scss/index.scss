@@ -32,27 +32,32 @@ html {
             justify-content: space-around;
 
             li {
+
                 text-decoration: none;
                 list-style: none;
-                padding-right: 10%;
 
-
-                a {
-                    margin: 0 8%;
+                i {
+                    color: #dab33e;
                 }
+            }
 
+            a {
+                color: white;
+                text-decoration: none;
+                padding-right: 10%;
+                margin: 0 8%;
+                padding: 2% 2%;
             }
 
             #reseau {
 
                 display: flex;
                 flex-direction: row;
-                padding: 0;
+                padding: 2% 2%;
                 justify-content: space-around;
             }
 
         }
-
 
     }
 
@@ -73,7 +78,12 @@ html {
 
     }
 
-
+    #menu {
+        background-image: url("../img/blanc.jpg");
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+    }
 
     #guest {
         background-image: url("../img/brochette.jpg");
