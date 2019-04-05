@@ -96,7 +96,30 @@ html {
     height: 100vh;
     background-position: center;
     display: flex;
-    justify-content: center; }
+    justify-content: center;
+    padding: 2% 5%; }
+    body #food #texte,
+    html #food #texte {
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column;
+      text-align: center;
+      align-items: center; }
+      body #food #texte h2,
+      html #food #texte h2 {
+        font-family: 'Yeseva One', cursive;
+        color: #dab33e; }
+      body #food #texte #chef,
+      html #food #texte #chef {
+        height: 25%;
+        width: 25%; }
+      body #food #texte p,
+      html #food #texte p {
+        text-align: center; }
+  body #assiette,
+  html #assiette {
+    height: 100%;
+    width: 70%; }
   body #ingredient,
   html #ingredient {
     background-image: url("../img/salade.jpg");

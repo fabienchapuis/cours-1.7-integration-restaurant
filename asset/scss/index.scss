@@ -124,15 +124,47 @@ html {
     // <!-- -------------------------|Section 2 Just the Right Food|-------------------------  -->
 
     #food {
+
         background-image: url("../img/blanc.jpg");
         width: 100vw;
         height: 100vh;
         background-position: center;
         display: flex;
         justify-content: center;
+        padding: 2% 5%;
 
-        img {}
+        #texte {
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+
+            h2 {
+                font-family: 'Yeseva One', cursive;
+                color: #dab33e;
+
+
+
+            }
+
+            #chef {
+                height: 25%;
+                width: 25%;
+            }
+
+
+            p {
+                text-align: center;
+            }
+        }
     }
+
+    #assiette {
+        height: 100%;
+        width: 70%;
+    }
+
 
     // <!-- -------------------------|Section 3 Fine ingredients|-------------------------  -->
 
@@ -181,5 +213,4 @@ html {
         width: 100vw;
         height: 50vh;
     }
-
 }
