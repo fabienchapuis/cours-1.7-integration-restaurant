@@ -97,35 +97,49 @@ html {
     background-position: center;
     display: flex;
     justify-content: center;
-    padding: 2% 5%; }
+    padding: 4% 0%; }
     body #food #texte,
     html #food #texte {
       display: flex;
       flex-wrap: wrap;
       flex-direction: column;
       text-align: center;
-      align-items: center; }
-      body #food #texte h2,
-      html #food #texte h2 {
+      align-items: center;
+      justify-content: space-around; }
+      body #food #texte #titre h2,
+      html #food #texte #titre h2 {
         font-family: 'Yeseva One', cursive;
+        font-size: 2em;
         color: #dab33e; }
+      body #food #texte #titre img,
+      html #food #texte #titre img {
+        height: 21%;
+        padding-top: 3%; }
       body #food #texte #chef,
       html #food #texte #chef {
         height: 25%;
         width: 25%; }
-      body #food #texte p,
-      html #food #texte p {
-        text-align: center; }
-  body #assiette,
-  html #assiette {
-    height: 100%;
-    width: 70%; }
-  body #ingredient,
-  html #ingredient {
-    background-image: url("../img/salade.jpg");
-    width: 100vw;
-    height: 100vh;
-    background-position: center; }
+      body #food #texte #text_2,
+      html #food #texte #text_2 {
+        text-align: justify;
+        width: 58%; }
+        body #food #texte #text_2 p,
+        html #food #texte #text_2 p {
+          font-family: 'Lato', sans-serif; }
+        body #food #texte #text_2 #stop,
+        html #food #texte #text_2 #stop {
+          font-family: 'Lato', sans-serif;
+          text-align: center; }
+      body #food #texte #assiette,
+      html #food #texte #assiette {
+        height: 100%;
+        height: 90%; }
+    body #food #ingredient,
+    html #food #ingredient {
+      background-image: url("../img/salade.jpg");
+      width: 100vw;
+      height: 100vh;
+      background-position: center; }
   body #menu,
   html #menu {
     background-image: url("../img/blanc.jpg");

@@ -81,13 +81,11 @@ html {
                 color: white;
                 font-size: 4.9em;
 
-
             }
 
             img {
                 width: 21%;
                 height: 28%;
-
 
             }
 
@@ -131,7 +129,7 @@ html {
         background-position: center;
         display: flex;
         justify-content: center;
-        padding: 2% 5%;
+        padding: 4% 0%;
 
         #texte {
             display: flex;
@@ -139,13 +137,21 @@ html {
             flex-direction: column;
             text-align: center;
             align-items: center;
+            justify-content: space-around;
 
-            h2 {
-                font-family: 'Yeseva One', cursive;
-                color: #dab33e;
+            #titre {
 
+                h2 {
+                    font-family: 'Yeseva One', cursive;
+                    font-size: 2em;
+                    color: #dab33e;
 
+                }
 
+                img {
+                    height: 21%;
+                    padding-top: 3%;
+                }
             }
 
             #chef {
@@ -153,28 +159,41 @@ html {
                 width: 25%;
             }
 
+            #text_2 {
 
-            p {
-                text-align: center;
+                text-align: justify;
+                width: 58%;
+
+                p {
+                    font-family: 'Lato', sans-serif;
+
+                }
+
+                #stop {
+                    font-family: 'Lato', sans-serif;
+                    text-align: center;
+                }
+
+            }
+
+            #assiette {
+                height: 100%;
+                height: 90%;
             }
         }
-    }
-
-    #assiette {
-        height: 100%;
-        width: 70%;
-    }
 
 
-    // <!-- -------------------------|Section 3 Fine ingredients|-------------------------  -->
 
-    #ingredient {
-        background-image: url("../img/salade.jpg");
-        width: 100vw;
-        height: 100vh;
-        background-position: center;
+        // <!-- -------------------------|Section 3 Fine ingredients|-------------------------  -->
+
+        #ingredient {
+            background-image: url("../img/salade.jpg");
+            width: 100vw;
+            height: 100vh;
+            background-position: center;
 
 
+        }
     }
 
     // <!-- --------------------------|Section 4 Menu |-------------------------  -->
@@ -208,9 +227,17 @@ html {
 
     // < !-- -------------------------------|Section Footer|------------------------- -->
 
+
     footer {
         background-color: #191919;
         width: 100vw;
         height: 50vh;
+
     }
+
+
+
+
+
+
 }
