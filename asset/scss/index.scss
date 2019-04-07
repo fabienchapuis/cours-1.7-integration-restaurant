@@ -181,17 +181,65 @@ html {
                 height: 90%;
             }
         }
+    }
+
+    // <!-- -------------------------|Section 3 Fine ingredients|-------------------------  -->
+
+    #ingredient {
+        background-image: url("../img/salade.jpg");
+        width: 100vw;
+        height: 100vh;
+        background-position: center;
+
+        #bloc_noir {
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            text-align: center;
+            padding: 3%;
+            background-color: rgba(0, 0, 0, 0.7);
+            height: 50vh;
+            width: 31vw;
+            margin-top: 18vh;
+            margin-left: 56vw;
 
 
 
-        // <!-- -------------------------|Section 3 Fine ingredients|-------------------------  -->
 
-        #ingredient {
-            background-image: url("../img/salade.jpg");
-            width: 100vw;
-            height: 100vh;
-            background-position: center;
+            #titre_divider {
 
+                h2 {
+                    padding: 5%;
+                    font-family: 'Yeseva One', cursive;
+                    font-size: 2em;
+                    color: white;
+                }
+
+                #divider {
+                    padding-bottom: 5%;
+                }
+            }
+
+            #text {
+                p {
+                    color: white;
+                    font-family: 'Lato', sans-serif;
+
+                }
+
+                #stop_2 {
+                    padding-bottom: 5%;
+                }
+            }
+
+
+            #3epices {
+
+                img {
+
+                    padding: 5% 5%;
+                }
+            }
 
         }
     }

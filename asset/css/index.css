@@ -134,12 +134,43 @@ html {
       html #food #texte #assiette {
         height: 100%;
         height: 90%; }
-    body #food #ingredient,
-    html #food #ingredient {
-      background-image: url("../img/salade.jpg");
-      width: 100vw;
-      height: 100vh;
-      background-position: center; }
+  body #ingredient,
+  html #ingredient {
+    background-image: url("../img/salade.jpg");
+    width: 100vw;
+    height: 100vh;
+    background-position: center; }
+    body #ingredient #bloc_noir,
+    html #ingredient #bloc_noir {
+      display: flex;
+      justify-content: space-around;
+      flex-direction: column;
+      text-align: center;
+      padding: 3%;
+      background-color: rgba(0, 0, 0, 0.7);
+      height: 50vh;
+      width: 31vw;
+      margin-top: 18vh;
+      margin-left: 56vw; }
+      body #ingredient #bloc_noir #titre_divider h2,
+      html #ingredient #bloc_noir #titre_divider h2 {
+        padding: 5%;
+        font-family: 'Yeseva One', cursive;
+        font-size: 2em;
+        color: white; }
+      body #ingredient #bloc_noir #titre_divider #divider,
+      html #ingredient #bloc_noir #titre_divider #divider {
+        padding-bottom: 5%; }
+      body #ingredient #bloc_noir #text p,
+      html #ingredient #bloc_noir #text p {
+        color: white;
+        font-family: 'Lato', sans-serif; }
+      body #ingredient #bloc_noir #text #stop_2,
+      html #ingredient #bloc_noir #text #stop_2 {
+        padding-bottom: 5%; }
+      body #ingredient #bloc_noir #3epices img,
+      html #ingredient #bloc_noir #3epices img {
+        padding: 5% 5%; }
   body #menu,
   html #menu {
     background-image: url("../img/blanc.jpg");
