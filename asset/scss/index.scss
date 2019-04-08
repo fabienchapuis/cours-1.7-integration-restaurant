@@ -431,6 +431,104 @@ html {
         background-color: #191919;
         width: 100vw;
         height: 50vh;
+        display: flex;
+        flex-direction: row;
+
+
+        #about_us {
+
+            width: 33vw;
+            text-align: center;
+
+            h3 {
+                color: #dab33e;
+                text-align: center;
+                padding-top: 7%;
+                padding-bottom: 4%;
+            }
+
+
+            #divider_1 {
+                height: 9%;
+            }
+
+            #texte_1 {
+                padding-top: 6%;
+                color: white;
+                width: 67%;
+                text-align: center;
+                margin: auto;
+            }
+        }
+
+
+
+
+        #hours {
+            width: 33vw;
+            text-align: center;
+
+
+
+            h3 {
+                color: #dab33e;
+                text-align: center;
+                padding-top: 7%;
+                padding-bottom: 4%;
+            }
+
+            #texte_2 {
+                color: #dab33e;
+                padding-top: 7%;
+                padding-bottom: 4%;
+
+            }
+
+
+            #divider_2 {
+                height: 9%;
+            }
+
+            p {
+                padding-top: 6%;
+                color: white;
+            }
+
+        }
+
+
+
+
+        #our_location {
+            width: 33vw;
+            text-align: center;
+
+            h3 {
+                color: #dab33e;
+                padding-top: 7%;
+                padding-bottom: 4%;
+
+            }
+
+
+            #divider_3 {
+                height: 9%;
+            }
+
+            #texte_3 {
+                padding-top: 6%;
+                color: white;
+            }
+        }
+
+
+
+
+
+
+
+
+
 
     }
 

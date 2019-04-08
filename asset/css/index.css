@@ -299,6 +299,66 @@ html {
   html footer {
     background-color: #191919;
     width: 100vw;
-    height: 50vh; }
+    height: 50vh;
+    display: flex;
+    flex-direction: row; }
+    body footer #about_us,
+    html footer #about_us {
+      width: 33vw;
+      text-align: center; }
+      body footer #about_us h3,
+      html footer #about_us h3 {
+        color: #dab33e;
+        text-align: center;
+        padding-top: 7%;
+        padding-bottom: 4%; }
+      body footer #about_us #divider_1,
+      html footer #about_us #divider_1 {
+        height: 9%; }
+      body footer #about_us #texte_1,
+      html footer #about_us #texte_1 {
+        padding-top: 6%;
+        color: white;
+        width: 67%;
+        text-align: center;
+        margin: auto; }
+    body footer #hours,
+    html footer #hours {
+      width: 33vw;
+      text-align: center; }
+      body footer #hours h3,
+      html footer #hours h3 {
+        color: #dab33e;
+        text-align: center;
+        padding-top: 7%;
+        padding-bottom: 4%; }
+      body footer #hours #texte_2,
+      html footer #hours #texte_2 {
+        color: #dab33e;
+        padding-top: 7%;
+        padding-bottom: 4%; }
+      body footer #hours #divider_2,
+      html footer #hours #divider_2 {
+        height: 9%; }
+      body footer #hours p,
+      html footer #hours p {
+        padding-top: 6%;
+        color: white; }
+    body footer #our_location,
+    html footer #our_location {
+      width: 33vw;
+      text-align: center; }
+      body footer #our_location h3,
+      html footer #our_location h3 {
+        color: #dab33e;
+        padding-top: 7%;
+        padding-bottom: 4%; }
+      body footer #our_location #divider_3,
+      html footer #our_location #divider_3 {
+        height: 9%; }
+      body footer #our_location #texte_3,
+      html footer #our_location #texte_3 {
+        padding-top: 6%;
+        color: white; }
 
 /*# sourceMappingURL=index.css.map */
