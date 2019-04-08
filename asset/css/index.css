@@ -225,7 +225,76 @@ html {
     background-image: url("../img/blanc.jpg");
     width: 100vw;
     height: 100vh;
-    background-position: center; }
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    text-align: justify; }
+    body #reservation1 #image,
+    html #reservation1 #image {
+      width: 50vw;
+      display: flex;
+      flex-direction: row;
+      text-align: justify;
+      align-items: center;
+      padding: 5%; }
+      body #reservation1 #image #plat1,
+      html #reservation1 #image #plat1 {
+        padding-right: 3%; }
+    body #reservation1 #formulaire,
+    html #reservation1 #formulaire {
+      width: 50vw;
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+      padding: 5%; }
+      body #reservation1 #formulaire #titre_divider_3,
+      html #reservation1 #formulaire #titre_divider_3 {
+        color: #dab33e; }
+        body #reservation1 #formulaire #titre_divider_3 h2,
+        html #reservation1 #formulaire #titre_divider_3 h2 {
+          font-family: 'Yeseva One', cursive;
+          font-size: 2.2em;
+          padding-bottom: 5%; }
+        body #reservation1 #formulaire #titre_divider_3 #divider,
+        html #reservation1 #formulaire #titre_divider_3 #divider {
+          color: #dab33e;
+          height: 28%;
+          padding-bottom: 5%; }
+      body #reservation1 #formulaire #paragraphe_3,
+      html #reservation1 #formulaire #paragraphe_3 {
+        width: 60%; }
+        body #reservation1 #formulaire #paragraphe_3 #p1,
+        html #reservation1 #formulaire #paragraphe_3 #p1 {
+          padding-bottom: 4%; }
+      body #reservation1 #formulaire #form,
+      html #reservation1 #formulaire #form {
+        padding-top: 8%;
+        width: 36vw;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between; }
+        body #reservation1 #formulaire #form #nom,
+        html #reservation1 #formulaire #form #nom {
+          margin-bottom: 5%; }
+        body #reservation1 #formulaire #form #mail,
+        html #reservation1 #formulaire #form #mail {
+          margin-bottom: 5%; }
+        body #reservation1 #formulaire #form #date,
+        html #reservation1 #formulaire #form #date {
+          margin-bottom: 5%; }
+        body #reservation1 #formulaire #form #nb,
+        html #reservation1 #formulaire #form #nb {
+          margin-bottom: 5%; }
+      body #reservation1 #formulaire #bouton,
+      html #reservation1 #formulaire #bouton {
+        padding-top: 10%;
+        margin-right: 11%; }
+      body #reservation1 #formulaire label,
+      html #reservation1 #formulaire label {
+        color: #dab33e; }
   body footer,
   html footer {
     background-color: #191919;

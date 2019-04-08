@@ -191,7 +191,6 @@ html {
         height: 100vh;
         background-position: center;
 
-
         #bloc_noir {
             display: flex;
             justify-content: space-around;
@@ -204,8 +203,6 @@ html {
             width: 31vw;
             margin-top: 18vh;
             margin-left: 56vw;
-
-
 
 
             #titre_divider {
@@ -233,7 +230,6 @@ html {
                     padding: 5%;
                 }
             }
-
 
             #3epices {
 
@@ -278,13 +274,9 @@ html {
 
         }
 
-
-
         #titre_divider_2 {
             font-family: 'Yeseva One', cursive;
             font-size: 1.5em;
-
-
 
             h2 {
                 padding-bottom: 4%;
@@ -294,11 +286,8 @@ html {
             img {}
         }
 
-
         #paragraphe {
             font-family: 'Lato', sans-serif;
-
-
 
             p {
                 font-family: 'Gentium Book Basic', serif;
@@ -310,7 +299,6 @@ html {
                     content: "\f10d";
                     font-family: "FontAwesome";
 
-
                 }
             }
 
@@ -318,14 +306,7 @@ html {
                 text-align: center;
             }
 
-
         }
-
-
-
-
-
-
 
     }
 
@@ -336,6 +317,110 @@ html {
         width: 100vw;
         height: 100vh;
         background-position: center;
+        display: flex;
+        flex-direction: row;
+        text-align: justify;
+
+
+
+        #image {
+            width: 50vw;
+            display: flex;
+            flex-direction: row;
+            text-align: justify;
+            align-items: center;
+            padding: 5%;
+
+            #plat1 {
+                padding-right: 3%;
+            }
+        }
+
+
+
+        #formulaire {
+            width: 50vw;
+            display: flex;
+            flex-direction: column;
+            text-align: center;
+            align-items: center;
+            padding: 5%;
+
+            #titre_divider_3 {
+                color: #dab33e;
+
+                h2 {
+                    font-family: 'Yeseva One', cursive;
+                    font-size: 2.2em;
+                    padding-bottom: 5%;
+
+                }
+
+                #divider {
+                    color: #dab33e;
+                    height: 28%;
+                    padding-bottom: 5%;
+                }
+
+            }
+
+            #paragraphe_3 {
+
+                width: 60%;
+
+
+                #p1 {
+                    padding-bottom: 4%;
+                }
+
+                #p2 {}
+
+            }
+
+
+            #form {
+                padding-top: 8%;
+                width: 36vw;
+                display: flex;
+                flex-direction: row;
+                align-items: center;
+                flex-wrap: wrap;
+                justify-content: space-between;
+
+                #nom {
+
+                    margin-bottom: 5%;
+                }
+
+                #mail {
+                    margin-bottom: 5%;
+
+                }
+
+                #date {
+                    margin-bottom: 5%;
+
+                }
+
+                #nb {
+                    margin-bottom: 5%;
+                }
+
+            }
+
+            #bouton {
+
+                padding-top: 10%;
+                margin-right: 11%;
+
+            }
+
+            label {
+                color: #dab33e;
+            }
+
+        }
+
 
     }
 
