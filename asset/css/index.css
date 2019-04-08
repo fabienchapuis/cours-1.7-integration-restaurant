@@ -167,7 +167,7 @@ html {
         font-family: 'Lato', sans-serif; }
       body #ingredient #bloc_noir #text #stop_2,
       html #ingredient #bloc_noir #text #stop_2 {
-        padding-bottom: 5%; }
+        padding: 5%; }
       body #ingredient #bloc_noir #3epices img,
       html #ingredient #bloc_noir #3epices img {
         padding: 5% 5%; }
@@ -182,7 +182,44 @@ html {
     background-image: url("../img/brochette.jpg");
     width: 100vw;
     height: 100vh;
-    background-position: center; }
+    background-position: center;
+    color: white; }
+    body #guest #fond_noir,
+    html #guest #fond_noir {
+      display: flex;
+      flex-direction: column;
+      text-align: justify;
+      align-items: center;
+      padding: 3%;
+      background-color: rgba(0, 0, 0, 0.7);
+      height: 50vh;
+      width: 31vw;
+      margin-left: 32vw;
+      margin-top: 21vh; }
+    body #guest #titre_divider_2,
+    html #guest #titre_divider_2 {
+      font-family: 'Yeseva One', cursive;
+      font-size: 1.5em; }
+      body #guest #titre_divider_2 h2,
+      html #guest #titre_divider_2 h2 {
+        padding-bottom: 4%;
+        padding-top: 5%; }
+    body #guest #paragraphe,
+    html #guest #paragraphe {
+      font-family: 'Lato', sans-serif; }
+      body #guest #paragraphe p,
+      html #guest #paragraphe p {
+        font-family: 'Gentium Book Basic', serif;
+        padding-top: 5%;
+        line-height: 184%;
+        width: 28vw; }
+        body #guest #paragraphe p p :before,
+        html #guest #paragraphe p p :before {
+          content: "\f10d";
+          font-family: "FontAwesome"; }
+      body #guest #paragraphe #contrib,
+      html #guest #paragraphe #contrib {
+        text-align: center; }
   body #reservation1,
   html #reservation1 {
     background-image: url("../img/blanc.jpg");

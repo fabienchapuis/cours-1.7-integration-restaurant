@@ -191,11 +191,13 @@ html {
         height: 100vh;
         background-position: center;
 
+
         #bloc_noir {
             display: flex;
             justify-content: space-around;
             flex-direction: column;
             text-align: center;
+
             padding: 3%;
             background-color: rgba(0, 0, 0, 0.7);
             height: 50vh;
@@ -228,7 +230,7 @@ html {
                 }
 
                 #stop_2 {
-                    padding-bottom: 5%;
+                    padding: 5%;
                 }
             }
 
@@ -260,6 +262,70 @@ html {
         width: 100vw;
         height: 100vh;
         background-position: center;
+        color: white;
+
+        #fond_noir {
+            display: flex;
+            flex-direction: column;
+            text-align: justify;
+            align-items: center;
+            padding: 3%;
+            background-color: rgba(0, 0, 0, 0.7);
+            height: 50vh;
+            width: 31vw;
+            margin-left: 32vw;
+            margin-top: 21vh;
+
+        }
+
+
+
+        #titre_divider_2 {
+            font-family: 'Yeseva One', cursive;
+            font-size: 1.5em;
+
+
+
+            h2 {
+                padding-bottom: 4%;
+                padding-top: 5%;
+            }
+
+            img {}
+        }
+
+
+        #paragraphe {
+            font-family: 'Lato', sans-serif;
+
+
+
+            p {
+                font-family: 'Gentium Book Basic', serif;
+                padding-top: 5%;
+                line-height: 184%;
+                width: 28vw;
+
+                p :before {
+                    content: "\f10d";
+                    font-family: "FontAwesome";
+
+
+                }
+            }
+
+            #contrib {
+                text-align: center;
+            }
+
+
+        }
+
+
+
+
+
+
 
     }
 
