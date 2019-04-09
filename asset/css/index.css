@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=Lato");
 @import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic");
 @import url("https://fonts.googleapis.com/css?family=Yeseva+One");
@@ -27,16 +28,18 @@ html {
       width: 100vw;
       display: flex;
       flex-direction: row;
-      justify-content: space-around;
+      justify-content: space-between;
       background-color: rgba(0, 0, 0, 0.1); }
       body header nav ul,
       html header nav ul {
         color: white;
         display: flex;
         flex-direction: row;
-        justify-content: space-around; }
+        justify-content: space-around;
+        width: 80%; }
         body header nav ul li,
         html header nav ul li {
+          margin: 0 5px;
           text-decoration: none;
           list-style: none; }
           body header nav ul li i,
@@ -65,34 +68,35 @@ html {
         padding-bottom: 2%;
         color: white;
         font-size: 4.9em; }
-      body header .texte_principal img,
-      html header .texte_principal img {
-        width: 21%;
-        height: 28%; }
-    body header #bouton,
-    html header #bouton {
-      font-family: 'Lato', sans-serif;
-      text-align: center;
+        @media screen and (max-width: 992px) {
+          body header .texte_principal h1,
+          html header .texte_principal h1 {
+            /* CSS appliqué aux petits écrans */
+            font-size: 3em; } }
+  body #bouton,
+  html #bouton {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: white;
+    padding-top: 2%; }
+    body #bouton .box1,
+    html #bouton .box1 {
       color: white;
-      padding-top: 2%; }
-      body header #bouton .box1,
-      html header #bouton .box1 {
-        color: white;
-        margin-top: 5%;
-        margin-right: 2%;
-        background-color: rgba(0, 0, 0, 0.7);
-        border: 1px solid #242525;
-        padding: 1% 3%; }
-      body header #bouton .box2,
-      html header #bouton .box2 {
-        color: white;
-        margin-top: 5%;
-        background-color: rgba(255, 255, 255, 0.2);
-        border: 1px solid rgba(255, 255, 255, 0.2);
-        padding: 1% 3%; }
+      margin-top: 5%;
+      margin-right: 2%;
+      background-color: rgba(0, 0, 0, 0.7);
+      border: 1px solid #242525;
+      padding: 1% 3%; }
+    body #bouton .box2,
+    html #bouton .box2 {
+      color: white;
+      margin-top: 5%;
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 1px solid rgba(255, 255, 255, 0.2);
+      padding: 1% 3%; }
   body #food,
   html #food {
-    background-image: url("../img/blanc.jpg");
+    background-image: url("../img/blanc.png");
     width: 100vw;
     height: 100vh;
     background-position: center;
@@ -137,7 +141,7 @@ html {
         height: 90%; }
   body #ingredient,
   html #ingredient {
-    background-image: url("../img/salade.jpg");
+    background-image: url("../img/salade.png");
     width: 100vw;
     height: 100vh;
     background-position: center; }
@@ -174,7 +178,7 @@ html {
         padding: 5% 5%; }
   body #menu,
   html #menu {
-    background-image: url("../img/blanc.jpg");
+    background-image: url("../img/blanc.png");
     width: 100vw;
     height: 100vh;
     background-position: center; }
@@ -223,7 +227,7 @@ html {
         text-align: center; }
   body #reservation1,
   html #reservation1 {
-    background-image: url("../img/blanc.jpg");
+    background-image: url("../img/blanc.png");
     width: 100vw;
     height: 100vh;
     background-position: center;
