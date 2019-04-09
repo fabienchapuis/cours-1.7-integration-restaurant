@@ -27,7 +27,8 @@ html {
       width: 100vw;
       display: flex;
       flex-direction: row;
-      justify-content: space-around; }
+      justify-content: space-around;
+      background-color: rgba(0, 0, 0, 0.1); }
       body header nav ul,
       html header nav ul {
         color: white;
@@ -288,13 +289,18 @@ html {
         body #reservation1 #formulaire #form #nb,
         html #reservation1 #formulaire #form #nb {
           margin-bottom: 5%; }
-      body #reservation1 #formulaire #bouton,
-      html #reservation1 #formulaire #bouton {
-        padding-top: 10%;
-        margin-right: 11%; }
-      body #reservation1 #formulaire label,
-      html #reservation1 #formulaire label {
-        color: #dab33e; }
+        body #reservation1 #formulaire #form #bouton,
+        html #reservation1 #formulaire #form #bouton {
+          padding-top: 10%;
+          margin-right: 11%; }
+        body #reservation1 #formulaire #form label,
+        html #reservation1 #formulaire #form label {
+          color: #dab33e;
+          padding-right: 55%;
+          width: 200px; }
+        body #reservation1 #formulaire #form #start,
+        html #reservation1 #formulaire #form #start {
+          margin-left: 14%; }
   body footer,
   html footer {
     background-color: #191919;
@@ -308,7 +314,7 @@ html {
       text-align: center; }
       body footer #about_us h3,
       html footer #about_us h3 {
-        color: #dab33e;
+        color: white;
         text-align: center;
         padding-top: 7%;
         padding-bottom: 4%; }
@@ -328,29 +334,40 @@ html {
       text-align: center; }
       body footer #hours h3,
       html footer #hours h3 {
-        color: #dab33e;
+        color: white;
         text-align: center;
         padding-top: 7%;
         padding-bottom: 4%; }
       body footer #hours #texte_2,
       html footer #hours #texte_2 {
         color: #dab33e;
-        padding-top: 7%;
         padding-bottom: 4%; }
       body footer #hours #divider_2,
       html footer #hours #divider_2 {
-        height: 9%; }
+        height: 9%;
+        padding-bottom: 6%; }
       body footer #hours p,
       html footer #hours p {
-        padding-top: 6%;
         color: white; }
+      body footer #hours .fab.fa-cc-visa,
+      html footer #hours .fab.fa-cc-visa {
+        padding-right: 2%; }
+      body footer #hours .fab.fa-cc-paypal,
+      html footer #hours .fab.fa-cc-paypal {
+        padding-right: 2%; }
+      body footer #hours .fab.fa-cc-amex,
+      html footer #hours .fab.fa-cc-amex {
+        padding-right: 2%; }
+      body footer #hours .fab.fa-cc-discove,
+      html footer #hours .fab.fa-cc-discove {
+        padding-right: 2%; }
     body footer #our_location,
     html footer #our_location {
       width: 33vw;
       text-align: center; }
       body footer #our_location h3,
       html footer #our_location h3 {
-        color: #dab33e;
+        color: white;
         padding-top: 7%;
         padding-bottom: 4%; }
       body footer #our_location #divider_3,
@@ -360,5 +377,25 @@ html {
       html footer #our_location #texte_3 {
         padding-top: 6%;
         color: white; }
+      body footer #our_location .fab.fa-twitter,
+      html footer #our_location .fab.fa-twitter {
+        color: #dab33e;
+        padding-top: 5%;
+        padding-right: 2%; }
+      body footer #our_location .fab.fa-facebook-f,
+      html footer #our_location .fab.fa-facebook-f {
+        color: #dab33e;
+        padding-top: 5%;
+        padding-right: 2%; }
+      body footer #our_location .fab.fa-youtube,
+      html footer #our_location .fab.fa-youtube {
+        color: #dab33e;
+        padding-top: 5%;
+        padding-right: 2%; }
+      body footer #our_location .fab.fa-trello,
+      html footer #our_location .fab.fa-trello {
+        color: #dab33e;
+        padding-top: 5%;
+        padding-right: 2%; }
 
 /*# sourceMappingURL=index.css.map */

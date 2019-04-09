@@ -34,6 +34,9 @@ html {
             display: flex;
             flex-direction: row;
             justify-content: space-around;
+            background-color: rgba(0, 0, 0, 0.1);
+
+            #logo {}
 
             ul {
                 color: white;
@@ -404,19 +407,25 @@ html {
 
                 #nb {
                     margin-bottom: 5%;
+
+
                 }
 
-            }
+                #bouton {
 
-            #bouton {
+                    padding-top: 10%;
+                    margin-right: 11%;
+                }
 
-                padding-top: 10%;
-                margin-right: 11%;
+                label {
+                    color: #dab33e;
+                    padding-right: 55%;
+                    width: 200px;
+                }
 
-            }
-
-            label {
-                color: #dab33e;
+                #start {
+                    margin-left: 14%;
+                }
             }
 
         }
@@ -434,19 +443,17 @@ html {
         display: flex;
         flex-direction: row;
 
-
         #about_us {
 
             width: 33vw;
             text-align: center;
 
             h3 {
-                color: #dab33e;
+                color: white;
                 text-align: center;
                 padding-top: 7%;
                 padding-bottom: 4%;
             }
-
 
             #divider_1 {
                 height: 9%;
@@ -461,17 +468,12 @@ html {
             }
         }
 
-
-
-
         #hours {
             width: 33vw;
             text-align: center;
 
-
-
             h3 {
-                color: #dab33e;
+                color: white;
                 text-align: center;
                 padding-top: 7%;
                 padding-bottom: 4%;
@@ -479,37 +481,47 @@ html {
 
             #texte_2 {
                 color: #dab33e;
-                padding-top: 7%;
                 padding-bottom: 4%;
 
             }
 
-
             #divider_2 {
                 height: 9%;
+                padding-bottom: 6%;
             }
 
             p {
-                padding-top: 6%;
                 color: white;
             }
 
+            .fab.fa-cc-visa {
+                padding-right: 2%;
+            }
+
+            .fab.fa-cc-paypal {
+                padding-right: 2%;
+            }
+
+            .fab.fa-cc-amex {
+                padding-right: 2%;
+            }
+
+            .fab.fa-cc-discove {
+                padding-right: 2%;
+            }
+
         }
-
-
-
 
         #our_location {
             width: 33vw;
             text-align: center;
 
             h3 {
-                color: #dab33e;
+                color: white;
                 padding-top: 7%;
                 padding-bottom: 4%;
 
             }
-
 
             #divider_3 {
                 height: 9%;
@@ -519,21 +531,35 @@ html {
                 padding-top: 6%;
                 color: white;
             }
+
+            .fab.fa-twitter {
+                color: #dab33e;
+                padding-top: 5%;
+                padding-right: 2%;
+            }
+
+            .fab.fa-facebook-f {
+                color: #dab33e;
+                padding-top: 5%;
+                padding-right: 2%;
+            }
+
+            .fab.fa-youtube {
+                color: #dab33e;
+                padding-top: 5%;
+                padding-right: 2%;
+            }
+
+            .fab.fa-trello {
+                color: #dab33e;
+                padding-top: 5%;
+                padding-right: 2%;
+            }
+
         }
 
 
-
-
-
-
-
-
-
-
     }
-
-
-
 
 
 
